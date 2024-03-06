@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabela para Excel</h1>
+    <div>
+        <input type="text" id="nome" placeholder="Insira sua descrição">
+        <input type="number" id="valor" placeholder="insira o valor do produto">
+        <input type="number" id="quantidade" placeholder="insira quantidade">
+    </div>
+    <div>
+        <button onclick="adicionarIntem()"> Adicionar a tabela 📚</button>
+    </div>
+    <br>
+    <div>
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>nome</th>
+                    <th>valor</th>
+                    <th>quant</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+         </table>
+    </div>
+    <br>
+    <div>
+        <button onclick="exportarParaExcel()">Exportar para Excel✅</button>
+    </div>
+</body>
+</html>
